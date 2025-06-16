@@ -21,6 +21,6 @@ public class Livro extends PdfEntry {
                ", Area: " + areaConhecimento +
                ", Ano: " + anoPublicacao +
                ", Editora: " + (editora.isEmpty() ? "-" : editora) +
-               ", Páginas: " + (numeroPaginas > 0 ? numeroPaginas : "-");
+               ", Paginas: " + (numeroPaginas > 0 ? numeroPaginas : "-");
     }
 }

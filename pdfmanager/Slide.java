@@ -15,6 +15,6 @@ public class Slide extends PdfEntry {
     public String toString() {
         return "[Slide] " + super.toString() +
                ", Disciplina: " + disciplina +
-               ", Instituição: " + (instituicao.isEmpty() ? "-" : instituicao);
+               ", Instituicao: " + (instituicao.isEmpty() ? "-" : instituicao);
     }
 }

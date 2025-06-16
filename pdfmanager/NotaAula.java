@@ -17,7 +17,7 @@ public class NotaAula extends PdfEntry {
     public String toString() {
         return "[Nota de Aula] " + super.toString() +
                ", Disciplina: " + disciplina +
-               ", Instituição: " + (instituicao.isEmpty() ? "-" : instituicao) +
-               ", Páginas: " + (numeroPaginas > 0 ? numeroPaginas : "-");
+               ", Instituicao: " + (instituicao.isEmpty() ? "-" : instituicao) +
+               ", Paginas: " + (numeroPaginas > 0 ? numeroPaginas : "-");
     }
 }
